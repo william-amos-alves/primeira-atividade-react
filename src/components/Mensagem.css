@@ -1,0 +1,16 @@
+.mensagem-titulo {
+    color: rgb(23, 10, 206);
+}
+
+.paragrafo{
+    font-style: italic;
+}
+
+.mensagem-corpo{
+    background-color: rgb(173, 131, 131);
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 300px;
+    margin: 8px auto;
+}
