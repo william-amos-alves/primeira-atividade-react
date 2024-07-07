@@ -1,0 +1,51 @@
+
+
+.cabecalho{
+    display: flex;
+    background-color: rgb(128, 99, 155);
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.link{
+    display: flex;
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+}
+
+.botao{
+    align-items: flex-start;
+    width: 70px;
+}
+
+.card{
+    text-align: center; 
+    font-size: 16px; 
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.borda{
+    box-shadow: 6px 6px 6px rgb(128, 99, 155);
+}
+
+.material-symbols-outlined{
+    font-size: 16px;
+}
+
+.botao-comprar{
+   width: 100px;
+   background-color: rgb(128, 99, 155);
+   color: rgb(236, 231, 224);
+   padding: 5px;
+}
+
+.login{
+    color: aliceblue;
+    font-size: 16px;
+}
+

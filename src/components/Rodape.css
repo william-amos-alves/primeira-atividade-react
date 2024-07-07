@@ -1,5 +1,7 @@
 .rodape{
     display: flex;
     justify-content:center;
-    background-color: rgb(113, 173, 173);
+    background-color: rgb(128, 99, 155);
+    color: whitesmoke;
+    padding: 10px;
 }

@@ -1,13 +1,13 @@
 
 import "./Rodape.css";
 
-function Rodape(){
+function Rodape(props){
 
     return(
     <section>
-        <hr />
+        <br />
        <div className="rodape">
-       ©2015-2024 SoulCode - Dessenvolvidor por William Alves Todos os direitos reservados
+        {props.texto}
        </div>
     </section>
     );
