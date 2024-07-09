@@ -8,30 +8,25 @@ import CardAluno from "./components/CardAluno";
 import Banner from "./components/Banner";
 import Atividade from "./components/Atividade";
 import Galeria from "./components/Galeria";
+import Eventos from "./components/Eventos";
+import Contador from "./components/Contador";
+import Abas from "./components/Abas";
+import Carrossel from "./components/Carrossel";
+import CalculadoraIMC from "./components/CalculadoraIMC";
+import Post from "./components/Post";
+import Converso from "./components/Converso";
 
 function App(){
    return(
     <>
-      { /* <Mensagem
-        textoTitulo="As batatas quando nascem se esparramam pelo chão"
-        nomeAutor="J. Almir"
-        paragrafo="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        linkImagem="https://picsum.photos/200"
-      />
-      <Mensagem
-        textoTitulo="As batatas quando nascem se esparramam pelo chão"
-        nomeAutor="J. Almir"
-        paragrafo="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-        linkImagem="https://picsum.photos/200"
-      /> */}
-        {/*<Navbar logado={true} nomeUsuario="William"/>
-        <Blog />*/}
-         {/*<Listagem />
-          <CardAluno />*/}
-         {/* <Banner /> */}
-         <Atividade logado={true} nomeUsuario="William"/>
-         <Galeria />
-         <Rodape  texto= " ©Desenvolvido por William Alves Todos os direitos reservados"/>
+       {/* <Contador valorInicial ={20}/>
+        <Contador valorInicial ={0}/>
+        <Contador valorInicial ={1000}/>
+        <Contador /> */}
+        {/* <Abas /> */}
+         {/*<CalculadoraIMC /> */}
+         <Post />
+         <Converso />
     </>
    );
 }
