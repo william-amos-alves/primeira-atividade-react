@@ -14,7 +14,7 @@ function Contato(){
     return(
         <main className="mt-4">
             <form className="form-section cadastro" onSubmit={handleSubmit(cadastrar)}>
-                <h1>Cadastro</h1>
+                <h1>Contato</h1>
                 <br />
                 <div>
                     <label htmlFor="nome">Nome</label>
