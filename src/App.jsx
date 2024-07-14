@@ -1,32 +1,31 @@
 
-import Rodape from "./components/Rodape";
-import Blog from "./components/Blog";
-import Mensagem from "./components/Mensagem";
-import Navbar from "./components/Navbar";
-import Listagem from "./components/Listagem";
-import CardAluno from "./components/CardAluno";
-import Banner from "./components/Banner";
-import Atividade from "./components/Atividade";
-import Galeria from "./components/Galeria";
-import Eventos from "./components/Eventos";
-import Contador from "./components/Contador";
-import Abas from "./components/Abas";
-import Carrossel from "./components/Carrossel";
-import CalculadoraIMC from "./components/CalculadoraIMC";
-import Post from "./components/Post";
-import Converso from "./components/Converso";
+import Menu from "../src/components/Menu";
+import Home from "../src/components/Home";
+import Login from "../src/components/Login";
+import Cadastro from "../src/components/Cadastro";
+import Ajuda from "../src/components/Ajuda";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Notfound from "../src/components/NotFound";
+import Rodape from "../src/components/Rodape";
+import Cardapio from "./components/Cardapio";
+import Contato from "./components/Contato";
 
 function App(){
    return(
     <>
-       {/* <Contador valorInicial ={20}/>
-        <Contador valorInicial ={0}/>
-        <Contador valorInicial ={1000}/>
-        <Contador /> */}
-        {/* <Abas /> */}
-         {/*<CalculadoraIMC /> */}
-         <Post />
-         <Converso />
+      <BrowserRouter>
+         <Menu/>
+         <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/cadastro" element={<Cadastro/>} />
+            <Route path="/contato" element={<Contato/>} />
+            <Route path="/cardapio" element={<Cardapio/>} />
+            <Route path="/ajuda" element={<Ajuda/>} />
+            <Route path="*" element={<Notfound/>} />
+         </Routes>
+         <Rodape/>
+      </BrowserRouter>
     </>
    );
 }

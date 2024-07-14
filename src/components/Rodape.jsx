@@ -1,15 +1,12 @@
 
 import "./Rodape.css";
 
-function Rodape(props){
+function Rodape(){
 
     return(
-    <section>
-        <br />
-       <div className="rodape">
-        {props.texto}
-       </div>
-    </section>
+        <section>           
+            <p className="rodape"> Desenvolvido por William Amós </p>
+        </section>
     );
 
 }

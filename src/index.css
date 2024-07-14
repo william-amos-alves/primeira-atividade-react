@@ -1,14 +1,62 @@
-*{
-    padding: 0; 
-    box-sizing: border-box;  
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.form-section{
+    width: 320px;
+    margin: 16px auto;
 }
 
-body {
-    background-color: #f3eebd;
-    font-family: monospace;
+
+.invalid{
+    color: red;
 }
 
-h1{
+.rodape{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(175, 50, 169);
+    color: whitesmoke;
+    margin: 0;
+    height: 48px;
+}
+
+.inicio{
+    background-color: rgb(175, 50, 169);
+    color: white;
+}
+
+.politica{
+    padding-left: 10px;
+}
+
+.priva{
+    height: 86vh;
+}
+
+.login{
+    height: 80vh;
+    color: black;
+}
+
+.icone-home{
+    font-size: 24px;
+    color: bisque;
+}
+
+.cadastro{
+    height: 80vh;
+}
+
+.ajuda{
+    height: 82vh;
+}
+
+.home{
     text-align: center;
 }
+
+.home-logo{
+    width: 100%;
+    height: 78vh;
+}
+
 
